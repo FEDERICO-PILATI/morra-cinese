@@ -1,0 +1,140 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(immagini/muraglia-cinese.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+main{
+    max-width: 1200px;
+    overflow: auto;
+    margin: 0 auto;
+}
+
+section{
+    overflow: auto;
+    margin-bottom: 50px;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    font-size: 6rem;
+}
+
+#gioca{
+    background-color: darkgreen;
+    color: white;
+    width: 20%;
+    font-size: 4em;
+    display: block;
+    margin: 20px auto;
+}
+
+#gioca:hover{
+    background-color: limegreen;
+}
+
+.box{
+    width: 48%;
+    height: 750px;
+    background-color: white;
+    border: 6px solid darkgreen;
+    padding: 20px;
+    padding-top: 80px;
+    position: relative;
+}
+
+#tu{
+    float: left;
+}
+
+#browser{
+    float: right;
+}
+
+.titoli{
+    font-size: 2.5rem;
+    display: block;
+    text-align: center;
+    font-weight: bold;
+}
+
+#titolotu{
+    color: green;
+}
+
+#titolobrowser{
+    color: orangered;
+}
+
+#scelta{
+    display: none;
+}
+
+#scelta li{
+    width: 220px;
+    height: 220px;
+    list-style: none;
+    border: 6px solid darkgreen;
+    border-radius: 50%;
+    background-color: lightgreen;
+}
+
+#carta{
+    float: left;
+    background-image: url(immagini/carta.png);
+    background-size: cover; 
+}
+
+#sasso{
+    float: right;
+    background-image: url(immagini/sasso.png);
+    background-size: cover; 
+}
+
+
+#forbici{
+    clear: both;
+    margin: 40px auto;
+    background-image: url(immagini/forbici.png);
+    background-size: cover;
+}
+
+.punteggio{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    position: absolute;
+    color: white;
+    font-size: 3em;
+    padding-top: 10px;
+    padding-left: 20px; /*ho abusato del padding per centrare lo 0, c'è  un metodo migliore e più efficace?*/
+}
+
+#punteggioTu{
+    background-color: green;
+    bottom: 10px;
+    right: 10px;
+}
+
+#punteggioBrowser{
+    background-color: fuchsia;
+    bottom: 10px;
+    left: 10px;
+}
+
+#esito{
+    color: white;
+    background-color: darkgreen;
+    width: 400px;
+    font-size: 4em;
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+    visibility: hidden;
+    clear: both;
+}
