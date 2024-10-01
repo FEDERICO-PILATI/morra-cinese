@@ -1,1 +1,1 @@
-# morra-cinese
+esercitazione con html, css e javascript in cui ho replicato il gioco della morra cinese (sasso, carta e forbice) che tiene conto anche dei punti. è composto da 2 card, la prima viene gestita dal giocatore che sceglie volontariamente e la seconda che rappresenta l'avversario è gestita con Math.random
