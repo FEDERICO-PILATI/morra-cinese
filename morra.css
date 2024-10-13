@@ -112,7 +112,7 @@ h1{
     color: white;
     font-size: 3em;
     padding-top: 10px;
-    padding-left: 20px; /*ho abusato del padding per centrare lo 0, c'è  un metodo migliore e più efficace?*/
+    padding-left: 20px;
 }
 
 #punteggioTu{
